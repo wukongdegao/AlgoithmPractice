@@ -11,7 +11,7 @@ package practice2;
  * @author by 袁点 13130110031
  */
 
-public class Algorithm1 
+public class Algorithm2_1 
 {
 
 	public static void main(String[] args) 
@@ -57,7 +57,7 @@ public class Algorithm1
 		for(int i=1;i<=n;i++)
 			m[i][i]=0;
 		
-		//l为链长度
+		//L为链长度
 		for(int L=2;L<=n;L++)
 		{
 			for(int i=1;i<=n-L+1;i++)
