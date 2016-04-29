@@ -8,7 +8,7 @@ import java.util.*;
  * @author Ô¬µã 13130110031
  */
 
-public class Algorithm1_2 {
+public class Algorithm2 {
 
 	public static void main(String[] args) 
 	{
@@ -94,7 +94,7 @@ class priorityQueue
 			Heap[i]=key;
 			while (i>0&&Heap[parent(i)]<Heap[i]) 
 			{
-				Algorithm1_3.swap(Heap, i, parent(i));
+				Algorithm3.swap(Heap, i, parent(i));
 				i=parent(i);
 			}
 		}
@@ -130,7 +130,7 @@ class priorityQueue
 			largest=r;
 		if(largest!=i)
 		{
-			Algorithm1_3.swap(A, i, largest);
+			Algorithm3.swap(A, i, largest);
 		    maxHeapify(A, largest);
 		}
 	}
@@ -140,7 +140,7 @@ class priorityQueue
 	{
 		for(int i=Heap.length-1;i>0;i--)
 		{
-			Algorithm1_3.swap(Heap, 0, i);
+			Algorithm3.swap(Heap, 0, i);
 			heapSize--;
 			maxHeapify(Heap, 0);
 		}

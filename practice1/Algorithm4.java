@@ -16,7 +16,7 @@ package practice1;
  * @author Ô¬µã 13130110031
  */
 
-public class Algorithm1_4 {
+public class Algorithm4 {
 
 	public static void main(String[] args) 
 	{
@@ -77,7 +77,7 @@ public class Algorithm1_4 {
 			for(int j=0;j<S.length;j++)
 			{
 				if(S[i]<S[j])
-					Algorithm1_3.swap(S, i, j);
+					Algorithm3.swap(S, i, j);
 			}
 		}
 		return S;

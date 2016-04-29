@@ -10,7 +10,7 @@ import java.util.*;
  *@author Ô¬µã   13130110031
  */
 
-public class Algorithm1_1 {
+public class Algorithm1 {
 
 	public static void main(String[] args) 
 	{

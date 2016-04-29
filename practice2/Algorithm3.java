@@ -8,7 +8,7 @@ package practice2;
  * @author by Ô¬µã 13130110031
  */
 
-public class Algorithm2_3 
+public class Algorithm3 
 {
 
 	public static void main(String[] args) 
