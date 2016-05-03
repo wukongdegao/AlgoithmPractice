@@ -8,7 +8,7 @@ import java.util.*;
  * @author Ô¬µã 13130110031
  */
 
-public class Algorithm3 
+public class Algorithm1_3 
 {
 
 	public static void main(String[] args) 

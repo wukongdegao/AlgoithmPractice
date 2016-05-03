@@ -10,7 +10,7 @@ package practice2;
  * @author by Ô¬µã 13130110031
  */
 
-public class Algorithm4 
+public class Algorithm2_4 
 {
 
 	public static void main(String[] args) 
